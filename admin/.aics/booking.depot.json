@@ -1,0 +1,20 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:dentistBooking",
+    "version": "v0.0.1",
+    "summary": "牙医预约管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:admin-ui-base":"",
+        "sunhn:clinicsManager":"",
+        "sunhn:dentists":""
+    },
+    "files": [
+    	"client/booking/booking.html",
+        "client/booking/booking.js",
+        "lib/model/booking.js",
+        "server/booking/publish.js"
+    ],
+    "database": {}
+}

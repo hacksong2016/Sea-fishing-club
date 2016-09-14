@@ -1,0 +1,19 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:dentists",
+    "version": "v0.0.1",
+    "summary": "牙医管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:admin-ui-base":"",
+        "sunhn:departments":"",
+        "sunhn:titles":""
+    },
+    "files": [
+    	"client/dentist/dentist.html",
+        "client/dentist/dentist.js",
+        "lib/model/dentist.js"
+    ],
+    "database": {}
+}

@@ -1,0 +1,62 @@
+.s-goods{
+	padding:0.2rem 0.2rem 1rem 0.2rem;
+	font-size: 0.36rem;
+}
+.s-goods .item{
+	display:block;
+	max-width: 100%;
+	padding:0.2rem;
+	box-shadow:  1px 1px 1px #bbb;
+	border-radius: 0.16rem;
+	position: relative;
+	background-color: #fff;
+	margin-bottom: 0.2rem;
+
+}
+
+.s-goods .name{
+	padding-top:0.3rem;
+	line-height:0.4rem;
+	font-weight: 800;
+	padding-left:0.2rem;
+	/*border-bottom:1px solid #eee;*/
+	padding-bottom:0.1rem;
+}
+
+.s-goods .summary{
+	line-height:0.4rem;
+	padding-left:0.2rem;
+	font-size: 0.28rem;
+	color: rgba(45, 34, 50, 0.701961);
+}
+
+.s-goods .thumb{
+	width:100%;
+	height:3.2rem;
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+	padding-left:0.02rem;
+}
+.s-goods .point{
+	position: absolute;
+	width:2.4rem;
+	border:1px solid rgb(108,147,226);
+	color:rgb(108,147,226);
+	font-size:0.24rem;
+	line-height:0.4rem;
+	padding-left:1.3rem;
+	top:3.66rem;
+	right:0.2rem;
+
+}
+.s-goods .point .label{
+	background:rgb(108,147,226);
+	color:#fff;
+	position: absolute;
+	left:0;
+	top:0;
+	width:1.2rem;
+	font-size:0.2rem;
+	text-align: center;
+}

@@ -1,0 +1,40 @@
+footer div{
+	background:#fff;
+	color:#bbb;
+	width: 100%;
+	height:1.0rem;
+	position: fixed;
+	bottom:0;
+	left:0;
+	/*border-top:1px solid #bfbfbf;*/
+	z-index:99999;
+}
+
+footer a{
+	height:1.0rem;
+	text-align: center;
+	color:#bbb;
+	font-size:0.2rem;
+	padding-top:0.1rem;
+	position: relative;
+
+
+}
+footer a i{
+	display:block;
+	width:100%;
+	text-align: center;
+	font-size:0.4rem !important;
+	margin-bottom:0.1rem;
+}
+footer .active{
+	background:#fff;
+	color:rgb(108,147,226);
+}
+footer{
+	width:100%;
+	height:1.0rem;
+	position: fixed;
+	bottom:0;
+	left: 0;
+}

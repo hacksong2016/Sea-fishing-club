@@ -1,0 +1,208 @@
+.login-single *{
+	-moz-box-sizing: border-box;  
+	-webkit-box-sizing: border-box; 
+	-o-box-sizing: border-box; 
+	-ms-box-sizing: border-box; 
+	box-sizing: border-box; 
+}
+
+.login-single{
+	position: absolute;
+	width:100%;
+	height:100%;
+	top:0;
+	left:0;
+	-webkit-animation-duration: .3s;
+	background-color:#f1f1f1;
+}
+
+.login-single:before{
+	content:"";
+	display:block;
+	width:100%;
+	height:1.0rem;
+}
+
+.login-header{
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:1.0rem;
+	border-bottom:0.02rem solid #bbb;
+	background-color:rgb(108,147,226);
+	color:#fff;
+	font-size:0.32rem;
+	text-align: center;
+	line-height:1.0rem;
+}
+.login-header-right{
+	position: absolute;
+	right:0;
+	top:0;
+	width:2.0rem;
+	padding-right:0.3rem;
+	text-align: right;
+	font-size:0.28rem;
+	color:#fff;
+}
+.login-header-left{
+	position: absolute;
+	left:0;
+	top:0;
+	width:2.0rem;
+	padding-left:0.3rem;
+	text-align: left;
+	font-size:0.28rem;
+	color:#fff;
+}
+.page-login-body{
+	padding:1.0rem 0.6rem 0.2rem 0.6rem;
+	font-size: 0.32rem;
+}
+.page-login-form{
+	background-color:rgb(108,147,226);
+	border:1px solid rgb(108,147,226);
+	position: relative;
+	border-radius:0.2rem;
+	overflow:hidden;
+	width:100%;
+}
+.page-login-row{
+	border-bottom:1px solid rgb(108,147,226);
+	position: relative;
+	height:0.9rem;
+	overflow: hidden;	
+}
+.page-login-row input{
+	-webkit-appearance:none;
+	position: absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	border:0;
+	outline:none;
+	padding:0 0.2rem 0 0.8rem;
+	font-size:0.32rem;
+}
+.page-login-row i{
+	position: absolute;
+	top:0;
+	left:0.26rem;
+	line-height:0.9rem;
+	color:#bbb;
+	width:0.4rem;
+}
+.page-login-btng{
+	height:0.9rem;
+	display: -webkit-box; 
+}
+.page-login-btn{
+	-webkit-box-flex: 1;
+	color:#fff;
+	line-height:0.9rem;
+	text-align: center;
+}
+.page-login-forget{
+	width:100%;
+	line-height:0.5rem;
+	color:rgb(108,147,226);
+	padding-left:0.2rem;
+	text-align: right;
+	margin-top:0.2rem;
+	font-size:0.28rem;
+	display:block;
+}
+.page-login-register{
+	width:100%;
+	line-height:0.5rem;
+	color:#bbb;
+	padding-left:0.2rem;
+	margin-top:0.2rem;
+	font-size:0.28rem;
+	display:block;
+}
+#page-account{
+	z-index:200;
+}
+#page-forget{
+	z-index:300;
+}
+#page-reg{
+	z-index:300;
+}
+#page-code{
+	z-index:310;
+}
+.forgetLoginBtn{
+}
+#page-login-loading{
+	z-index:900;
+	background-color: rgba(0,0,0,.5);
+	
+}
+.spinner-bottom{
+	position: absolute;
+	bottom:0;
+	text-align: center;
+	width: 100%;
+}
+.spinner {
+	margin: 2.0rem auto 0;
+	width: 3.0rem;
+	text-align: center;
+	padding-bottom:0.4rem;
+}
+
+.spinner > div {
+	width: 10px;
+	height: 10px;
+	background-color: #bbb;
+	border-radius: 100%;
+	display: inline-block;
+	-webkit-animation: bouncedelay 1.4s infinite ease-in-out;
+	animation: bouncedelay 1.4s infinite ease-in-out;
+	/* Prevent first frame from flickering when animation starts */
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.spinner .bounce1 {
+	-webkit-animation-delay: -0.32s;
+	animation-delay: -0.32s;
+}
+
+.spinner .bounce2 {
+	-webkit-animation-delay: -0.16s;
+	animation-delay: -0.16s;
+}
+
+@-webkit-keyframes bouncedelay {
+	0%, 80%, 100% { -webkit-transform: scale(0.0) }
+	40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes bouncedelay {
+	0%, 80%, 100% {
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+		} 40% {
+			transform: scale(1.0);
+			-webkit-transform: scale(1.0);
+		}
+	}
+.ff-popup{
+	position: fixed;
+	bottom:15px;
+	height:40px;
+	border-radius:8px;
+	left:15px;
+	right:15px;
+	line-height:40px;
+	text-align: center;
+	color:#fff;
+	background:rgba(0,0,0,.8);
+	z-index:9999;
+	display:none;
+}

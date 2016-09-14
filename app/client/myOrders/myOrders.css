@@ -1,0 +1,16 @@
+.myorders .status{
+	width:100%;
+	background:#fff;
+	box-shadow: 0 0 1px #bbb;
+	margin-bottom:0.3rem;
+}
+.myorders .status a{
+	text-align: center;
+	font-size:0.24rem;
+	display:block;
+	padding:0.24rem 0;
+}
+
+.actives{
+	border-bottom: 1px rgb(108,147,226) solid;
+}

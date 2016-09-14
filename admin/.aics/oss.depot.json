@@ -1,0 +1,15 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:oss",
+    "version": "v0.0.1",
+    "summary": "引用阿里云OSS服务",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+    },
+    "files": [
+    	"server/oss/config.js",
+        "server/oss/method.js"
+    ],
+    "database": {}
+}

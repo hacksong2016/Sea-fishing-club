@@ -1,0 +1,15 @@
+<template name="activeCheck">
+     <div class="page page-with-header-footer">
+        <header>
+            <div class="header">
+                活动验证
+                <a onclick="backaction(this)" class="left"><i class="fa fa fa-angle-left"></i></a>
+            </div>
+        </header>
+        <div class="cs-qrcode">
+       	 {{> QrCode text=qrcode}}
+        </div>
+
+        <div class="cs-desc">使用时请出示二维码于商家扫描</div>
+    </div>
+</template>

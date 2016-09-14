@@ -1,0 +1,20 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:admin-ui-base",
+    "version": "v0.0.5",
+    "summary": "后台基本样式",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:admin-account-base":"",
+         "sunhn:layout":"",
+         "sunhn:ff-form-style":""
+        },
+    "files": [
+    	"client/common/head.html",
+    	"client/common/main.css",
+    	"client/common/main.js",
+    	"client/common/client.js"
+    ],
+    "database": {}
+}

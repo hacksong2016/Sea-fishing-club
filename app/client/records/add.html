@@ -1,0 +1,41 @@
+<template name="recordsAdd">
+    <header>
+        <div class="header">
+            添加成员
+            <a onclick="backaction()" class="left"><i class="fa fa fa-chevron-left"></i></a>
+        </div>
+    </header>
+    <div class="ff-form">
+        <div class="ff-line">
+            <label>姓名</label>
+            <input id="fullname" type="text" placeholder="请填写真实姓名" />
+        </div>
+        <div class="ff-line">
+            <label>身份</label>
+            <select id="role">
+                <option value="M">妈妈</option>
+                <option value="D">女孩</option>
+                <option value="S">男孩</option>
+            </select>
+        </div>
+        <div class="ff-line">
+            <label>年龄</label>
+            <input id="year" type="tel" placeholder="请填写年龄" />
+        </div>
+        <div class="ff-line">
+            <label>手机号码</label>
+            <input id="tel" type="tel" placeholder="请填写手机号码" />
+        </div>
+      <!--   <div class="ff-line">
+            <label>所在城市</label>
+            <select id="city">
+                {{#each regions}}
+                <option value="{{_id}}">{{name}}</option>
+                {{/each}}
+            </select>
+        </div> -->
+        <div class="ff-enable">
+            <a class="ra-save">下一步</a>
+        </div>
+    </div>
+</template>

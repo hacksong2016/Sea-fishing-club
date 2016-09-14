@@ -1,0 +1,61 @@
+<template name="home">
+    <div class="page page-with-header-footer home">
+        <div class="banner _flex" style="background-image:url(/{{#if isDentist}}dbg.jpg {{else}}homebj.jpeg {{/if }});">
+            <div class="img ">
+                <div style="background-image:url({{user.avatar}})">
+                    <input type="file" id="avatar" />
+                </div>
+            </div>
+            <div class="info _flex-1">
+                <div class="nickname ">{{ user.nickname }} / {{ user.tel }}</div>
+                <div class="point ">{{ user.point }} 积分</div>
+            </div>
+          
+            <a href="/home/point" class="point-desc">查看积分规则 <i class="fa fa-angle-right"></i></a>
+            
+        </div>
+
+        <div class="list">
+            <a href="/home/info" class="link home-xx"> 基本信息 <i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <div class="list">
+            <a href="/active" class="link home-jf">我的收藏 <i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <!-- <div class="list">
+            <a class="link home-da"> 参与的活动 <i class="fa fa-angle-right"></i></a>
+        </div> -->
+     
+        <div class="list">
+            <a class="link home-dd">我的活动 <i class="fa fa-angle-right"></i></a>
+        </div>
+
+        <div class="list">
+            <a href="/myOrders" class="link home-yy"> 我的订单 <i class="fa fa-angle-right"></i></a>
+        </div>
+        
+        <div class="list">
+            <a  class="link2"> 我的邀请码：<b> {{ user.invite }} </b> <i>推荐有礼</i></a>
+        </div>
+
+       <!--  <div class="list">
+            <a href="/shop" class="link home-jf">积分商场 <i class="fa fa-angle-right"></i></a>
+        </div> -->
+
+
+        <div class="list-q">
+            <a class="link">注销账号</a>
+        </div>
+        <div class="home-qd animated zoomIn"> 点击签到 +5 </div>
+        
+        {{>footer active='wd'}}
+    </div>
+    <div class="con-con">
+        <div class="confirm">
+            <div class="confirm-wenzi">您是否要退出？</div>
+            <div class="corfirm-qu div">取消</div>
+            <a href="/logout"><div class="corfirm-ren div">确认</div></a>
+        </div>
+    </div>
+</template>

@@ -1,0 +1,26 @@
+.banner{
+	position: relative;
+}
+.banner-item{
+	display:block;
+	width:100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.swiper-pagination-bullet-active{
+	background:#fff;
+}
+.swiper-pagination{
+	position: absolute;
+	bottom:10px;
+	width:100%;
+}
+.swiper-container{
+	
+	/* background-color:#fff;
+	background-image:url(/l.gif);
+	background-size:auto;
+	background-position: center;
+	background-repeat: no-repeat; */
+}

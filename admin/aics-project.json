@@ -1,0 +1,30 @@
+{
+    //*!所有名称请使用小写字母
+    //项目名称
+    "name": "sunhn:dentist-admin",
+    //在这这里填写试用的原型组名称。可以在http://code-depot.com查询或根据需要新建
+    "prototype": "meteor-admin",
+    //版本号0.0.1
+    "version": "0.0.1",
+    //对于项目的简单功能描述
+    "summary": "牙医类常后台用包集合",
+   	//项目的GIT地址
+    "git":"",
+   
+    //代码包的依赖关系
+    "dependencies": {
+        "sunhn:departments":"",
+        "sunhn:ff-form-style":"",
+        "sunhn:membersManager":"",
+        "sunhn:layout":"",
+        "sunhn:clinicsManager":"",
+        "sunhn:titles":"",
+        "sunhn:goods":"",
+        "sunhn:orders":"",
+        "sunhn:dentists":"",
+        "sunhn:records":"",
+        "sunhn:dentistBooking":"",
+        "sunhn:banners":""
+
+    }
+}

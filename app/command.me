@@ -1,0 +1,9 @@
+netstat   -anp   |   grep  node
+meteor build --server="http://xdb.fami2u.com" /workspace/xdb2/build
+nohup env PORT=80 MONGO_URL="mongodb://localhost:27017/xdb"  ROOT_URL="http://xdb.fami2u.com/" node main.js > /alidata/logs/xdb.log 2>&1 &
+
+JPUSH:
+AppKey		6953089cfd6767dba36da835
+Master Secret		314064e19f56b428983fa3c7 
+
+meteor run ios-device  --mobile-server="http://192.168.199.217:3000"

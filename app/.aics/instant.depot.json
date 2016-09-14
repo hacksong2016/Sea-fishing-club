@@ -1,0 +1,28 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:instant",
+    "version": "v0.0.2",
+    "summary": "单人即时通讯",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":"",
+        "sunhn:mobile-ui-base":"",
+        "sunhn:packages-base":""
+    },
+    "files": [
+        "client/instant/instant.css",
+        "client/instant/instant.html",
+        "client/instant/instant.js",
+        "client/instant/item.css",
+        "client/instant/item.html",
+        "client/instant/item.js",
+        "client/instant/list.css",
+        "client/instant/list.html",
+        "client/instant/list.js",
+        "lib/model/instant.js",
+        "lib/routers/instant.js",
+        "server/instant/publish.js"
+    ],
+    "database": {}
+}

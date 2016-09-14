@@ -1,0 +1,19 @@
+<template name="homeInfo">
+    <div class="page page-with-header-footer home">
+        <header>
+            <div class="header">
+                基本信息
+                <a href="/home" class="left"><i class="fa fa fa-chevron-left"></i></a>
+            </div>
+        </header>
+        <div class="list">
+            <a href="/home/nickname" class="link" style="padding-left: 0.2rem;">昵称: {{ user.nickname }} <i class="fa fa-angle-right"></i></a>
+            <a  class="link" style="padding-left: 0.2rem;">手机号: {{ user.tel }} </a>
+            <a href="/home/password" class="ff-form">
+                <div class="ff-enables">
+                    <div id="save" style="color: #fff">修改密码</div>
+                </div>
+            </a>
+        </div>
+    </div>
+</template>

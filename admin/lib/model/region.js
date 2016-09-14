@@ -1,0 +1,1 @@
+Regions = new Meteor.Collection("regions");

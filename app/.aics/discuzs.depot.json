@@ -1,0 +1,30 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:discuzs",
+    "version": "v0.0.1",
+    "summary": "讨论组管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+        "client/discuz/apply.css",
+        "client/discuz/apply.html",
+        "client/discuz/apply.js",
+        "client/discuz/discuz.css",
+        "client/discuz/discuz.html",
+        "client/discuz/discuz.js",
+        "client/discuz/users.css",
+        "client/discuz/users.html",
+        "client/discuz/users.js",
+        "client/discuz/list.css",
+        "client/discuz/list.html",
+        "client/discuz/list.js",
+        "lib/model/discuz.js",
+        "lib/routers/discuz.js",
+        "server/discuz/methods.js",
+        "server/discuz/publish.js"
+    ],
+    "database": {}
+}

@@ -1,0 +1,17 @@
+<template name="knowledgeDetailItem">
+    <div class="page page-with-header-footer " style="background:#fff">
+        <div class="cd-thumb" style="background-image:url({{ knoItems.thumb }});">
+            <a onclick="backaction(this)" class="left" style="top:15px;position: fixed;" ><i style="font-size:34px;color:#fff;text-shadow:0 0 5px #666;" class="fa fa-angle-left"></i></a>
+        </div>
+        <div class="cd-info">
+            <b>{{knoItems.topic}}</b> {{{knoItems.summray}}}
+        </div>
+        <fieldset class="cd-detail-title">
+            <legend>详情介绍</legend>
+        </fieldset>
+        <div class="cd-detail">
+            {{{knoItems.detail}}}
+        </div>
+            {{> knowledgeBottomItem}}
+    </div>
+</template>

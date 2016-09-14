@@ -1,0 +1,16 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:mobile-ui-base",
+    "version": "v0.0.6",
+    "summary": "移动端项目基本样式",
+    "documentation": "",
+    "git": "",
+    "dependencies": {},
+    "files": [
+    	"client/common/head.html",
+        "client/common/ff-form.css",
+    	"client/common/main.css",
+        "client/common/main.js"
+    ],
+    "database": {}
+}

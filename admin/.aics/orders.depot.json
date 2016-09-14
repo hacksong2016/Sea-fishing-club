@@ -1,0 +1,21 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:orders",
+    "version": "v0.0.1",
+    "summary": "订单管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+         "sunhn:admin-ui-base":"",
+        "sunhn:membersManager":"",
+        "sunhn:goods":""
+
+    },
+    "files": [
+    	"client/orders/orders.html",
+        "client/orders/orders.js",
+        "lib/model/orders.js",
+        "server/orders/publish.js"
+    ],
+    "database": {}
+}

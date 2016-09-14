@@ -1,0 +1,22 @@
+<template name="bannerDetail">
+    <div class="page page-with-header-footer">
+        <header>
+            <div class="header">
+                {{banner.desc}}
+               <a onclick="backaction(this)" class="left"><i class="fa fa fa-chevron-left"></i></a>
+            </div>
+        </header>
+        <div class="thumb" style="height:220px;background-size: 100% 100%;background-repeat: no-repeat;background-position: center;background-image:url({{banner.thumb}})"></div>
+        <div class="cd-info" style="margin-top:40px;">
+            {{{banner.desc}}}
+        </div>
+        
+        <fieldset class="cd-detail-title">
+            <legend>活动介绍</legend>
+        </fieldset>
+        <div class="cd-detail">
+            {{{banner.detail}}}
+        </div>
+     
+    </div>
+</template>

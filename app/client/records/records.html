@@ -1,0 +1,19 @@
+<template name="records">
+	 <div class="page page-with-header records">
+        <header>
+            <div class="header">
+                我的档案
+                <a href="/records/add" class="right"><i class="fa fa-plus"></i></a>
+            </div>
+        </header>
+        <div class="records-list">
+        	{{#each records}}
+        		<a href="/records/list?id={{_id}}" class="records-item">
+        			{{fullname}}
+        			<i class="fa fa-chevron-right"></i>
+        		</a>
+        	{{/each}}
+        </div>
+        {{>footer active='zx'}}
+    </div>
+</template>

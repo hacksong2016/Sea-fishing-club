@@ -1,0 +1,58 @@
+
+
+.hma-item{
+	display:block;
+	width:100%;
+	padding:0.2rem;
+	position: relative;
+}
+.hma-cnt{
+	background:#fff;
+	width:100%;
+	box-shadow: 0 0 1px #bbb;
+}
+.hma-thumb{
+	display:block;
+	width:100%;
+	height:2.4rem
+	background-size:cover;
+	background-position: center;
+
+}
+.hma-title{
+	padding:0.2rem 0.2rem 0 0.2rem;
+	word-break: break-all;
+}
+.hma-num{
+	padding:0.2rem;
+	word-break: break-all;
+	font-size:0.24rem;
+	color:#bbb;
+}
+.hma-incheck{
+	position: absolute;
+	bottom:0.5rem;
+	right:0.4rem;
+	width:1.6rem;
+	text-align: center;
+	color:#fff;
+	background:#DE5353;
+	line-height:0.8rem;
+	border-radius: 0.1rem;
+	display:block;
+}
+.hma-uncheck{
+	position: absolute;
+	bottom:0.5rem;
+	right:0.4rem;
+	width:1.6rem;
+	text-align: center;
+	color:#fff;
+	background:#bbb;
+	line-height:0.8rem;
+	border-radius: 0.1rem;
+	display:block;
+}
+.hma-info{
+	padding-right:2.0rem;
+}

@@ -1,0 +1,28 @@
+{
+    "name": "sunhn:dentist",
+    "prototype": "meteor",
+    "type": "project",
+    "version": "0.0.1",
+    "summary": "牙医类可扩展至医疗资源类",
+    "git": "",
+    "documentation": "README.md",
+    "dependencies": {},
+    "packages": {
+    	"sunhn:booking":"",
+    	"sunhn:bookingManager":"",
+    	"sunhn:centerNotice":"",
+    	"sunhn:dentistProtal":"",
+    	"sunhn:dentistSimple":"",
+    	"sunhn:header-base":"",
+    	"sunhn:homeSimple":"",
+    	"sunhn:instant":"",
+    	"sunhn:mobile-account-base":"",
+    	"sunhn:mobile-ui-base":"",
+    	"sunhn:myOrders":"",
+    	"sunhn:packages-base":"",
+    	"sunhn:records.json":"",
+    	"sunhn:recordSearch-Simple":"",
+    	"sunhn:shopSimple":""
+
+    }
+}

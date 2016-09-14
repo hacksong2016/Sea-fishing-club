@@ -1,0 +1,15 @@
+.ff-enables{
+	width: 100%;
+    font-size: 0.32rem;
+}
+
+.ff-enables{
+	display: block;
+    width: 100%;
+    line-height: 0.7rem;
+    background: rgb(108,147,226);
+    color: #fff;
+    text-align: center;
+    border-radius: 0.1rem;
+    
+}

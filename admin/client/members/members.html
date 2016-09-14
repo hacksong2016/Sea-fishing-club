@@ -1,0 +1,34 @@
+<template name="members">
+    <div id="datagrid"></div>
+    <div id="editForm" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="editFor"/>
+			<div class="ff-file" id="e-avatar">
+				<!-- <input type="file" id="e-thumb" value="" data-avatar=""/> -->
+			</div>
+			<div class="ff-line">
+				<label>积分</label>
+				<input type="number" id="e-point" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>余额</label>
+				<input type="number" id="e-balance" value=""/>
+			</div>
+			
+			<div class="ff-line">
+				<label>权限</label>
+				<select id="e-isadmin">
+					<option value="0">用户</option>
+					<option value="1">管理员</option>
+				</select>
+			</div>
+			
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="saveUser" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+</template>

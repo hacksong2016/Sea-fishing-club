@@ -1,0 +1,15 @@
+<template name="actives">
+    <div class="page page-with-header-footer home">
+        <header>
+            <div class="header">
+                我的活动
+                <a class="left" onclick="showmenu()"><i class="fa fa-bars"></i></a>
+                <a class="right" href="/"><i class="fa fa-home"></i></a>
+            </div>
+        </header>
+        <div class="header-fill"></div>
+        <div class="home-actives">
+            {{#each actives }} {{>homeActiveItem }} {{/each}}
+        </div>
+    </div>
+</template>

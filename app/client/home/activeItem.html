@@ -1,0 +1,16 @@
+<template name="homeActiveItem">
+    <div class="hma-item _flex">
+        <div class="hma-cnt">
+            <a href="/active/detail?id={{info._id}}" class="hma-thumb" style="background-image:url({{info.thumb}})"></a>
+            <div class="hma-info">
+                <div class="hma-title">{{info.topic}}</div>
+                <div class="hma-num">{{info.num}} 人已参与 </div>
+            </div>
+            {{#if check }}
+           		<div class="hma-uncheck ">已验证</div>
+            {{else}}
+            	<a class="hma-incheck" href="/active/check?id={{_id}}" >验证</a>
+            {{/if}}
+        </div>
+    </div>
+</template>

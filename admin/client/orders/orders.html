@@ -1,0 +1,25 @@
+<template name="orders">
+    <div id="datagrid"></div>
+    <div id="edit" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="editFor"/>
+			
+			<div class="ff-line">
+				<label>订单状态</label>
+				<select id="e-status">
+					<option value="SUBMIT">已提交</option>
+					<option value="CHECKIN">已确认</option>
+					<option value="RECEIV">待收货</option>
+					<option value="COMPLETED">已完成</option>
+				</select>
+			</div>
+			
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="update" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+</template>

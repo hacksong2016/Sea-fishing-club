@@ -1,0 +1,17 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:footerTab",
+    "version": "v0.0.2",
+    "summary": "底部Tab导航",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-ui-base":""
+        },
+    "files": [
+    	"client/components/footer.css",
+        "client/components/footer.html",
+        "client/components/footer.js"
+    ],
+    "database": {}
+}

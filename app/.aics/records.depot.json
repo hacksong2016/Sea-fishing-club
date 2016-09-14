@@ -1,0 +1,29 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:records.json",
+    "version": "v0.0.2",
+    "summary": "医疗档案管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+        "client/records/add.html",
+        "client/records/add.js",
+        "client/records/list.css",
+        "client/records/list.html",
+        "client/records/list.js",
+        "client/records/records.css",
+        "client/records/records.html",
+        "client/records/records.js",
+        "client/records/document/add.html",
+        "client/records/document/add.js",
+        "client/records/document/edit.html",
+        "client/records/document/edit.js",
+        "lib/model/records.js",
+        "lib/routers/records.js",
+        "server/records/publish.js"
+    ],
+    "database": {}
+}

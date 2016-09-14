@@ -1,0 +1,30 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:shopSimple",
+    "version": "v0.0.5",
+    "summary": "简单的商城系统",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+    	"client/shop/address.css",
+        "client/shop/address.html",
+        "client/shop/address.js",
+        "client/shop/goods.css",
+        "client/shop/goods.html",
+        "client/shop/goods.js",
+        "client/shop/order.css",
+        "client/shop/order.html",
+        "client/shop/order.js",
+        "client/shop/shop.css",
+        "client/shop/shop.html",
+        "client/shop/shop.js",
+        "lib/model/shop.js",
+        "lib/routers/shop.js",
+        "server/shop/methods.js",
+        "server/shop/publish.js"
+    ],
+    "database": {}
+}

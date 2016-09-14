@@ -1,0 +1,26 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:booking",
+    "version": "v0.0.3",
+    "summary": "档期预约",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+        "client/booking/booking.css",
+        "client/booking/booking.html",
+        "client/booking/booking.js",
+        "client/booking/item.css",
+        "client/booking/item.html",
+        "client/booking/item.js",
+        "client/booking/mybooking.css",
+        "client/booking/mybooking.html",
+        "client/booking/mybooking.js",
+        "lib/model/booking.js",
+        "lib/routers/booking.js",
+        "server/booking/publish.js"
+    ],
+    "database": {}
+}

@@ -1,0 +1,276 @@
+html {
+    font-size: 12px;
+    background-color: rgb(240, 241, 245);
+    color: #333;
+}
+
+a {
+    color: #333;
+}
+
+* {
+    font-family: PingFangSC-Light
+}
+.clear{
+  clear:both;
+}
+.layout-page {
+    width: 100%;
+    padding-top: 60px;
+}
+
+.page {
+    width: 100%;
+    margin: 0px auto;
+    text-align: left;
+}
+
+.clear {
+    clear: both;
+}
+.forms{
+    display:none;
+}
+
+.shadow {
+    background: #fff;
+    box-shadow: 0 0 5px #bbb;
+    border-radius: 8px;
+}
+
+.ff-head {
+    width: 100%;
+    height: 40px;
+    line-height: 40px;
+    background: #ddd;
+}
+
+.ff-head div {
+    padding: 0px 10px;
+}
+
+.ff-body {
+    border-top: 1px solid #fff;
+}
+
+.ff-td {
+    padding: 0px 10px;
+    line-height: 35px;
+    border-top: 1px solid #fff;
+}
+
+.btn {
+    width: 80px;
+    text-align: center;
+    line-height: 30px;
+    box-shadow: 0 0 5px #bbb;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    color: #fff;
+    background: #bbb;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #333;
+}
+
+.bg {
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    position: fixed;
+    background: rgba(0, 0, 0, .3);
+   
+}
+._hide{
+    display:none;
+}
+.popup {
+    position: absolute;
+    width: 600px;
+    height: 100%;
+    background-color: #fff;
+    margin: auto;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 5px #bbb;
+    -webkit-animation-duration: .5s;
+    animation-duration: .5s;
+    padding:10px;
+    overflow-y :auto;
+}
+#datagrid{
+    width:100%;
+}
+.ff-line{
+    display: -webkit-box; 
+    border-bottom:1px solid #ddd;
+    padding:10px;
+    position: relative;
+}
+.ff-line .geo{
+    position: absolute;
+    top:0px;
+    right:0px;
+    width:100%;
+    height:60px;
+    z-index:999;
+
+}
+.ff-line label{
+    display:block;
+    width:80px;
+    line-height:30px;
+}
+.ff-line p{
+    display:block;
+    -webkit-box-flex: 1;
+    -webkit-appearance:none;
+    border:0px;
+    line-height:30px;
+    padding:0 10px;
+    outline:none;
+}
+.ff-line input,.ff-line select{
+    display:block;
+    -webkit-box-flex: 1;
+    -webkit-appearance:none;
+    border:0px;
+    height:30px;
+    padding:0 10px;
+    outline:none;
+
+}
+.ff-line textarea{
+    display:block;
+    -webkit-box-flex: 1;
+    -webkit-appearance:none;
+    border:0px;
+    height:60px;
+    padding:0 10px;
+    outline:none;
+    resize:none;
+
+}
+.ff-line div[contenteditable=true]{
+    width:480px;
+    outline:none;
+    padding:10px;
+    height:300px;
+    border:1px solid #bbb;
+    overflow: scroll;
+}
+.ff-line input:focus,.ff-line select:focus{
+    background:#f1f1f1;
+}
+.ff-btn{
+    padding:10px 0px 10px 10px;
+    display: -webkit-box; 
+}
+.ff-btn-item{
+    -webkit-box-flex: 1;
+    background-color:#333;
+    text-align: center;
+    line-height:40px;
+    color:#fff;
+    margin-right:10px;
+}
+.ff-btn-disable{
+    -webkit-box-flex: 1;
+    background-color:#bbb;
+    text-align: center;
+    line-height:40px;
+    color:#fff;
+    margin-right:10px;
+}
+.ff-btn-disable:active{
+    background-color:#ddd;
+}
+.ff-btn-item:active{
+    background-color:#bbb;
+}
+.ff-file{
+    width:100%;
+    height:160px;
+    position: relative;
+    background-image:url(/camera.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color:#f1f1f1;
+
+}
+.ff-file input{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    opacity: 0;
+}
+
+.ff-pics{
+    padding:5px;
+}
+.ff-add{
+    width:100px;
+    height:100px;
+    margin:10px;
+    background-image:url(/camera.png);
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color:#f1f1f1;
+    position: relative;
+    float:left;
+}
+.ff-add input{
+    position: absolute;
+    width:100%;
+    height:100%;
+    top:0px;
+    left:0px;
+    opacity: 0;
+}
+.ff-pics-item{
+    width:100px;
+    height:100px;
+    margin:10px;
+    background-position: center;
+    background-repeat:no-repeat;
+    background-color:#f1f1f1;
+    position: relative;
+    float:left;
+}
+.ff-pic{
+    width:100%;
+    height:100px;
+    margin-bottom:5px;
+    background-size:cover;
+    background-position: center;
+}
+.toolbars{
+    line-height:30px;
+    padding:5px 10px;
+    width:100%;
+    font-size:12px;
+}
+#ff-map{
+    width:500px;
+    height:500px;
+    background:#fff;
+    position: fixed;
+    top:100px;
+    left:100px;
+    z-index: 99999;
+    box-shadow: 0 0 2px #bbb;
+    display:none;
+}
+#baidumap{
+    width:100%;
+    position: absolute;
+    left:0px;
+    top:0px;
+    height:100%;
+}
+

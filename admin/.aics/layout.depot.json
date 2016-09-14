@@ -1,0 +1,21 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:layout",
+    "version": "v0.0.4",
+    "summary": "后台页面布局",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:admin-account-base":"",
+        "sunhn:admin-ui-base":"",
+        "sunhn:ff-form-style":""
+    },
+    "files": [
+    	"client/layout/index.html",
+        "client/layout/layout.css",
+        "client/layout/layout.html",
+        "client/layout/layout.js",
+        "client/layout/navigations.js"
+    ],
+    "database": {}
+}

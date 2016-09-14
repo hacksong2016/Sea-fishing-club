@@ -1,0 +1,256 @@
+.home{
+	font-size: 0.32rem;
+	height: 12.54rem;
+	position: relative;
+}
+
+.home .banner{
+	width:100%;
+	height:2.4rem;
+	background-size:cover;
+	background-position: center;
+
+}
+.home .banner .img{
+	margin:0.6rem 0.2rem 0.4rem 0.4rem;
+	width:1.2rem;
+	height:1.2rem;
+	border-radius:50%;
+	overflow:hidden;
+	background-color:#fff;
+
+}
+.home .banner .img input{
+	opacity: 0;
+	display:block;
+	width:100%;
+	position: absolute;
+	left:0;
+	top:0;
+	height:1.2rem;
+	-webkit-appearance: none;
+	
+}
+.home .banner .img div{
+	width:1.2rem;
+	height:1.2rem;
+	background-size:cover;
+	background-position: center;
+	position: relative;
+	margin:0 auto;
+}
+.home .banner .info{
+ 	color:rgba(255,255,255,.8);
+ 	line-height:0.4rem;
+ 	padding-top:0.68rem;
+ 	padding-left:0.2rem;
+
+}
+.role-change{
+	position: absolute;
+	top:0.3rem;
+	right:0.3rem;
+	color:#eee;
+	font-size:0.24rem;
+	width:0.5rem;
+	height:0.5rem;
+	text-align: center;
+	line-height:0.46rem;
+	border-radius: 0.16rem;
+}
+.home .banner .home{
+	position: absolute;
+	top:0.3rem;
+	left:0.3rem;
+	color:#eee;
+	font-size:0.32rem;
+	width:0.5rem;
+	height:0.5rem;
+	border:1px solid #eee;
+	text-align: center;
+	line-height:0.46rem;
+	border-radius: 0.16rem;
+}
+.home .banner .info .point{
+ 	padding-top:0.16rem;
+ 	font-size:0.24rem;
+}
+.home .list{
+	background:#fff;
+	margin-top:10px;
+}
+.home .list-q{
+	background:#fff;
+	margin-top:0.2rem;
+}
+.home .list-q .link{
+	display:block;
+	position: relative;
+	padding:0.2rem;
+	line-height:0.4rem;
+	border-bottom: 1px solid #eee;
+	background-repeat: no-repeat;;
+	background-size:0.5rem;
+	background-position: 0.2rem center;
+	text-align: center;
+}
+.hl2 a:first-child{
+	border-right:1px solid #eee;
+}
+.home .list .link{
+	display:block;
+	position: relative;
+	padding:0.2rem 0.2rem 0.2rem 0.7rem;
+	line-height:0.4rem;
+	border-bottom: 1px solid #eee;
+	background-repeat: no-repeat;;
+	background-size:0.4rem;
+	background-position: 0.2rem center;
+}
+.home .list .link2{
+	display:block;
+	position: relative;
+	padding:0.2rem 0.2rem 0.2rem 0.3rem;
+	line-height:0.4rem;
+	border-bottom: 1px solid #eee;
+	background-repeat: no-repeat;;
+	background-size:0.4rem;
+	color:#999;
+	background-position: 0.2rem center;
+}
+.home .list .link2 b{
+	color:rgb(108,147,226);
+}
+.home .list .link2 i{
+	position: absolute;
+	right:0.2rem;
+	top:0;
+	font-size:0.24rem;
+	line-height:0.8rem;
+}
+.home .list .link .fa-angle-right , .home .list .link .fa-sign-out{
+	position: absolute;
+	right:0.2rem;
+	top:0.2rem;
+	line-height:0.4rem;
+	color:#bbb;
+
+}
+.home .status{
+	width:100%;
+}
+.home .status a{
+	text-align: center;
+	font-size:0.24rem;
+	display:block;
+	padding:0.24rem 0;
+}
+.home-yy{
+	background-image:url(/home-yy.jpg);
+}
+.home-jh{
+	background-image:url(/home-jh.jpg);
+}
+.home-da{
+	background-image:url(/home-da.jpg);
+}
+.home-dd{
+	background-image:url(/home-dd.jpg);
+}
+.home-zx{
+	background-image:url(/home-zx.jpg);
+}
+.home-fq{
+	background-image:url(/home-fq.jpg);
+}
+.home-xx{
+	background-image:url(/home-xx.jpg);
+}
+.home-jf{
+	background-image:url(/home-jf.jpg);
+}
+.point-desc{
+	position: absolute;
+	bottom:0.2rem;
+	right:0.2rem;
+	font-size:0.24rem;
+	color:#fff;
+}
+.home-qd{
+	width:2.0rem;
+	position: absolute;
+	top:2.0rem;
+	left:3.0rem;
+	background:rgb(108,147,226);
+	color:#fff;
+	text-align: center;
+	padding:0.1rem 0.2rem;
+	border-radius: 0.1rem;
+	box-shadow:  0 0 0.06rem #bbb;
+	display:none;
+}
+.home-zxc{
+	width:0.14rem;
+	height:0.14rem;
+	background:red;
+	border-radius: 50%;
+	position: absolute;
+	left:2.0rem;
+	top:0.32rem;
+	display:none;
+}
+.home-order-c{
+	width:0.14rem;
+	height:0.14rem;
+	background:red;
+	border-radius: 50%;
+	margin-left:0.2rem;
+	position: absolute;
+	top:0.2rem;
+	left:0.1rem;
+	display:none;
+}
+.home-order-st{
+	position: relative;
+}
+.confirm{
+	z-index: 9999;
+	position: absolute;
+	width: 4.0rem;
+	height: 2rem;
+	top: 50%;
+	margin-top: -6.6.31rem;
+	left: 50%;
+	margin-left: -2.0rem;
+	background-color: #fff;
+}
+.confirm-wenzi{
+	width: 100%;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	font-size: 0.36rem;
+	text-align: center;
+	border-bottom: 1px #efefef solid;
+	letter-spacing: 1px;
+}
+.div{
+	width: 50%;
+	height: 1.0rem;
+	line-height: 1.0rem;
+	font-size: 0.32rem;
+	text-align: center;
+	border-right: 1px #efefef solid;
+	float: left;
+}
+.addhome{
+	background-color: #fefefe;
+}
+.con-con{
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: rgba(0,0,0,.6);
+	display: none;
+}

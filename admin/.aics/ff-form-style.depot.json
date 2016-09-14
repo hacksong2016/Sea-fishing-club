@@ -1,0 +1,14 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:ff-form-style",
+    "version": "v0.0.3",
+    "summary": "简单的表单样式",
+    "documentation": "",
+    "git": "",
+    "dependencies": {},
+    "files": [
+    	"client/common/ff-form.css",
+        "client/common/ff-form.js"
+    ],
+    "database": {}
+}

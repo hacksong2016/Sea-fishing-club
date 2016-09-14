@@ -1,0 +1,33 @@
+<template name="address">
+    <div class="page page-with-header-footer">
+        <header>
+            <div class="header">
+                收货地址
+                <a href="/shop" class="left"><i class="fa fa fa-chevron-left"></i></a>
+            </div>
+        </header>
+        <div class="so-create">
+            <div class="so-create-ct">
+                <div class="so-input">
+                    <input id="addressName" type="text" placeholder="收件人姓名" />
+                </div>
+                <div class="so-input">
+                    <input id="addressAddress" type="text" placeholder="收件人地址" />
+                </div>
+                <div class="so-input">
+                    <input id="addressTel" type="text" placeholder="收件人联系方式" />
+                </div>
+            </div>
+        </div>
+        <div class="address-ct-wrap">
+            {{#each address}}
+            <div class="address-ct" data-aid="{{_id}}">
+                <div class="so-address-line">收件人姓名: {{name}}</div>
+                <div class="so-address-line">收件人地址: {{street}}</div>
+                <div class="so-address-line">收件人联系方式: {{tel}}</div>
+            </div>
+            {{/each}}
+        </div>
+        <a class="address-save ">添加收货地址</a>
+    </div>
+</template>

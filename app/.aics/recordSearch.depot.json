@@ -1,0 +1,25 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:recordSearch-Simple",
+    "version": "v0.0.2",
+    "summary": "简单的档案搜索系统",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:records":""
+    },
+    "files": [
+        "client/recordsSearch/detail.css",
+        "client/recordsSearch/detail.html",
+        "client/recordsSearch/detail.js",
+        "client/recordsSearch/item.css",
+        "client/recordsSearch/item.html",
+        "client/recordsSearch/item.js",
+        "client/recordsSearch/search.html",
+        "client/recordsSearch/search.js",
+        "lib/routers/recordsSearch.js",
+        "server/recordsSearch/methods.js",
+        "server/recordsSearch/publish.js"
+    ],
+    "database": {}
+}

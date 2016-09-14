@@ -1,0 +1,14 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:header-base",
+    "version": "v0.0.1",
+    "summary": "简单的头部样式",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+    },
+    "files": [
+    	"client/common/header.css"
+    ],
+    "database": {}
+}

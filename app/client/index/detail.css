@@ -1,0 +1,135 @@
+.cd-thumb{
+	width:100%;
+	height:4.0rem;
+	background-position: center;
+	background-size:cover;
+	position: relative;
+	margin-bottom:0.8rem;
+}
+.cd-thumb .left{
+	position: absolute;
+	top:0.2rem;
+	left:0.3rem;
+	color:rgba(255,255,255,.8);
+	line-height:0.6rem;
+	width:1.0rem;
+}
+.cd-logo{
+	position: absolute;
+	background-image:url('/logo.png');
+	background-size:30px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color:#000;
+	width:0.9rem;
+	height:0.9rem;
+	border-radius: 50%;
+	bottom:-0.4rem;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+}
+.cd-point{
+	position: absolute;
+	width:1.6rem;
+	height:0.4rem;
+	line-height:0.4rem;
+	text-align: center;
+	color:#fff;
+	background-color:rgba(0,0,0,.6);
+	bottom:0;
+	right:0;
+	font-size:0.24rem;
+}
+.cd-info{
+	padding:0 0.4rem 0.4rem 0.4rem;
+	text-align: center;
+	font-size:0.28rem;
+	color:#666;
+	margin-bottom:0.4rem;
+}
+.cd-info b{
+	font-size:0.36rem;
+	font-weight:800;
+	display:block;
+	width:100%;
+	color:#252525;
+	padding-bottom: 0.3rem;
+}
+
+.cd-desc{
+	padding:0.4rem;
+	background:#efefef;
+	line-height:0.6rem;
+	font-size:0.28rem;
+	color:#666;
+	margin-bottom:0.4rem;
+}
+.cd-desc i{
+	color:#DE5353;
+	margin-right:0.1rem;
+}
+.cd-detail-title{
+	width:2.8rem;
+	border:0;
+	border-top:1px solid #252525;
+	text-align: center;
+	color:#252525;
+	margin:0 auto 0.3rem auto;
+	font-weight:800;
+}
+.cd-detail-title legend{
+	padding:0 0.2rem;
+}
+.cd-detail{
+	padding:0 0.4rem 2.0rem 0.4rem;
+	line-height: 0.5rem;
+	text-align: justify;
+	color: #666;
+
+}
+.ad-disable{
+	background:#bbb;
+	position: absolute;
+    width:2.0rem;
+    text-align: center;
+    line-height:0.7rem;
+    right:0.2rem;
+    display: block;
+    top:0.16rem;
+    color:#fff;
+    border-radius: 0.16rem;
+}
+.ad-price{
+	width:4.0rem;
+	line-height:1.0rem;
+	padding-left:0.3rem;
+	font-weight: 800;
+	color:#DE5353;
+	font-weight: 0.36rem;
+}
+.ad-price b{
+	color:#bbb;
+	font-size:0.28rem;
+}
+.active-footer{
+	position:fixed;
+	bottom:0;
+	left:0;
+	width:100%;
+	height:1.0rem;
+	background:#fff;
+	border-top:1px solid #eee;
+}
+.active-action {
+    position: absolute;
+    width:2.0rem;
+    text-align: center;
+    line-height:0.7rem;
+    right:0.2rem;
+    background:#DE5353;
+    display: block;
+    top:0.16rem;
+    color:#fff;
+    border-radius: 0.16rem;
+}
+

@@ -1,0 +1,14 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:packages",
+    "version": "v0.0.1",
+    "summary": "一些基本的引用包",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+    },
+    "files": [
+    	".meteor/packages"
+    ],
+    "database": {}
+}

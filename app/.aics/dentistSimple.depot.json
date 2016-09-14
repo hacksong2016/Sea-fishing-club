@@ -1,0 +1,30 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:dentistSimple",
+    "version": "v0.0.8",
+    "summary": "简单的牙医诊所列表及身份管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+        "client/dentist/choose.css",
+        "client/dentist/choose.html",
+        "client/dentist/choose.js",
+        "client/dentist/detail.css",
+        "client/dentist/detail.html",
+        "client/dentist/detail.js",
+        "client/dentist/info.css",
+        "client/dentist/info.html",
+        "client/dentist/info.js",
+        "client/dentist/list.css",
+        "client/dentist/list.html",
+        "client/dentist/list.js",
+        "lib/model/dentist.js",
+        "lib/routers/dentist.js",
+        "server/dentist/methods.js",
+        "server/dentist/publish.js"
+    ],
+    "database": {}
+}

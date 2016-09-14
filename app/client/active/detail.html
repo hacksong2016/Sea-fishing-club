@@ -1,0 +1,61 @@
+<template name="activeDetail"> 
+    {{#if Template.subscriptionsReady}}
+    <div class="page page-with-header-footer " style="background:#fff">
+        <div class="cd-thumb" style="background-image:url({{ active.thumb }});">
+            <a onclick="backaction(this)" class="left" ><i style="font-size:34px;color:#fff;text-shadow:0 0 5px #666;" class="fa fa-angle-left"></i></a>
+            <div class="cd-logo" style="background-image:url(/fishlogo.png);background-size:cover"></div>
+            <a class="top-share" style="position: fixed;" onclick="showShare();"></a>
+        </div>
+        <div class="cd-info">
+            <b>{{active.topic}}</b> {{{txtformat active.summray}}}
+        </div>
+        <div class="cd-desc">
+            <div class="cd-time"><i class="fa fa-hourglass-start"></i> 截止时间：{{ format active.endAt }}</div>
+            <div class="cd-address"><i class="fa fa-map-pin"></i> 地点：{{ active.address }}</div>
+            <div class="cd-tel"><i class="fa fa-phone"></i> 联系方式： {{{active.tel}}}</div>
+            {{#if active.max}}
+            <div class="cd-tel"><i class="fa fa-users"></i>名额限制： {{{active.max}}} </div>
+            {{/if }}
+        </div>
+        <fieldset class="cd-detail-title">
+            <legend>活动介绍</legend>
+        </fieldset>
+        <div class="cd-detail">
+            {{{active.detail}}}
+        </div>
+        <div class="goods-action-fix"></div>
+        <div class="active-footer">
+            <div class="ad-price">
+                <b>已有{{active.num}}人参加</b>
+            </div>
+            {{#if hadAction active}}
+                <a class="ad-disable">已报名</a> 
+            {{else}}
+                {{#if checkMax active}} 
+                    {{#if vaild active.endAt}}
+                <a class="ad-disable">报名结束</a> 
+                    {{else}}
+                <a class="active-action" >立即报名</a> 
+                    {{/if}} 
+                {{else}}
+                <a class="ad-disable">名额已满</a> 
+                {{/if}}
+            {{/if}}
+        </div>
+    </div>
+    {{else}}
+    <div class="sk-all">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    {{/if}}
+</template>

@@ -1,0 +1,20 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:records",
+    "version": "v0.0.2",
+    "summary": "档案管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:admin-ui-base":""
+    },
+    "files": [
+    	"client/records/records.html",
+        "client/records/records.js",
+        "client/records/manage.html",
+        "client/records/manage.js",
+        "lib/model/records.js",
+        "server/records/publish.js"
+    ],
+    "database": {}
+}

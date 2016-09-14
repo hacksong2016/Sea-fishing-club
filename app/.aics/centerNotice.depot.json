@@ -1,0 +1,19 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:centerNotice",
+    "version": "v0.0.3",
+    "summary": "居中实时通知",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+    },
+    "files": [
+    	"client/notice/notice.css",
+        "client/notice/notice.html",
+        "client/notice/notice.js",
+        "lib/model/notice.js",
+        "server/notice/publish.js",
+        "public/notice-c.png"
+    ],
+    "database": {}
+}

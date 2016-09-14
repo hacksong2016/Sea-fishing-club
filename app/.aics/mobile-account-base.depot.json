@@ -1,0 +1,31 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:mobile-account-base",
+    "version": "v0.0.4",
+    "summary": "手机号注册密码找回及登录",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-ui-base":"",
+        "sunhn:packages-base":""
+        },
+    "files": [
+    	"client/account/account.css",
+    	"client/account/forget.html",
+    	"client/account/forget.js",
+    	"client/account/forgetCode.html",
+    	"client/account/forgetCode.js",
+    	"client/account/login.html",
+    	"client/account/login.js",
+    	"client/account/register.html",
+    	"client/account/register.js",
+    	"client/account/registerCode.html",
+    	"client/account/registerCode.js",
+    	"lib/model/account.js",
+    	"lib/routers/account.js",
+    	"lib/facc.js",
+    	"server/account/method.js",
+    	"server/account/server.js"
+    ],
+    "database": {}
+}

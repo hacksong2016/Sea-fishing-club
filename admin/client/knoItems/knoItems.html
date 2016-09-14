@@ -1,0 +1,89 @@
+<template name="knoItems">
+    <div class="toolbars">
+        <a id="createLink"><i class="fa fa-plus"></i> 新建知识</a>
+    </div>
+    <div class="" id="datagrid"></div>
+    <div id="create" class="bg animated fadeIn  _hide" > 
+		<div  class="animated bounceInRight popup" >
+			<div class="ff-file">
+				<input type="file" id="c-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>主题</label>
+				<input type="text" id="c-topic" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>简介</label>
+				<input type="text" id="c-summray" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>类型</label>
+				<select id="c-categroy">
+					{{#each dynItems}}
+					<option value="{{_id}}">{{topic}}</option>
+					{{/each}}
+				</select>
+			</div>
+			<div class="ff-line">
+				<label>状态</label>
+				<select id="c-status">
+					<option value="0">未上线</option>
+					<option value="1">已上线</option>
+				</select>
+			</div>
+			<div class="ff-line">
+				<label>详细</label>
+				<div id="c-detail" contenteditable="true"></div>
+			</div>
+
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="save" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+	<div id="edit" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="editFor"/>
+			<div class="ff-file">
+				<input type="file" id="e-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>主题</label>
+				<input type="text" id="e-topic" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>简介</label>
+				<input type="text" id="e-summray" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>类型</label>
+				<select id="e-categroy">
+					{{#each dynItems}}
+					<option value="{{_id}}">{{topic}}</option>
+					{{/each}}
+				</select>
+			</div>
+			<div class="ff-line">
+				<label>状态</label>
+				<select id="e-status">
+					<option value="0">未上线</option>
+					<option value="1">已上线</option>
+				</select>
+			</div>
+			<div class="ff-line">
+				<label>详细</label>
+				<div id="e-detail" contenteditable="true"></div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="update" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+
+</template>

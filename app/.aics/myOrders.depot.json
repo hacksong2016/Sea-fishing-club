@@ -1,0 +1,23 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:myOrders",
+    "version": "v0.0.4",
+    "summary": "简单商品对应的我的订单列表",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:shopSimple":"",
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+        "client/myOrders/myOrders.css",
+        "client/myOrders/myOrders.html",
+        "client/myOrders/myOrders.js",
+        "client/myOrders/goods.css",
+        "client/myOrders/goods.html",
+        "client/myOrders/goods.js",
+        "lib/routers/myOrders.js",
+        "server/myOrders/publish.js"
+    ],
+    "database": {}
+}

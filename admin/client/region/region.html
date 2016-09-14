@@ -1,0 +1,71 @@
+<template name="region">
+	<div class="toolbars">
+        <a id="createLink"><i class="fa fa-plus"></i> 新建地区</a>
+    </div>
+    <div id="datagrid"></div>
+     <div id="create" class="bg animated fadeIn  _hide" > 
+		<div  class="animated bounceInRight popup" >
+			<div class="ff-file">
+				<input type="file" id="c-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>名称</label>
+				<input type="text" id="c-name" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>排序</label>
+				<input type="number" id="c-orderBy" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>简介</label>
+				<input type="text" id="c-summary" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>状态</label>
+				<select id="c-status">
+					<option value="0">未上线</option>
+					<option value="1">已上线</option>
+				</select>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="save" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+	<div id="edit" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="editFor"/>
+			<div class="ff-file">
+				<input type="file" id="e-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>名称</label>
+				<input type="text" id="e-name" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>排序</label>
+				<input type="number" id="e-orderBy" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>简介</label>
+				<input type="text" id="e-summary" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>状态</label>
+				<select id="e-status">
+					<option value="0">未上线</option>
+					<option value="1">已上线</option>
+				</select>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="update" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+</template>

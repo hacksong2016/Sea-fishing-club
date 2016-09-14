@@ -1,0 +1,13 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:packages-base",
+    "version": "v0.0.3",
+    "summary": "meteor项目基本引用包",
+    "documentation": "",
+    "git": "",
+    "dependencies": {},
+    "files": [
+    	".meteor/packages"
+    ],
+    "database": {}
+}

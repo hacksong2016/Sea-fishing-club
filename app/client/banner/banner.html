@@ -1,0 +1,10 @@
+<template name="banner">
+	  <div class="banner swiper-container" style="height:{{bannerHeight}}px">
+            <div class="banner-scroll _flex swiper-wrapper">
+                {{#each banners }}
+                <a  href="/banner?id={{_id}}" class="banner-item swiper-slide" style="background-image:url({{ thumb }});height:{{bannerHeight}}px"></a>
+                {{/each}}
+            </div>
+            <!-- <div class="swiper-pagination"></div> -->
+        </div>
+</template>

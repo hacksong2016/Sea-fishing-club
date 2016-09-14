@@ -1,0 +1,28 @@
+<template name="myOrdersGoodsSimple">
+
+	 <div class="myOrdersGoodsSimple">
+            <div class="top _flex">
+            	<div class="thumb" style="background-image:url({{goods.thumb}})"></div>
+	            <div class="info  _flex-1">
+	                <div class="name">{{goods.name}}</div>
+	                <div class="time">{{format createAt}}</div>
+	                {{#if compare goods.type 'point'}}
+	                	<div class="point">
+	                        <div class="label">所需积分</div>
+	                        {{goods.point}}
+	                        </div>
+	                {{/if}}
+	                {{#if compare goods.type 'cash'}}
+	                	<div class="point">
+	                        <div class="label">现价</div>
+	                        ¥ {{goods.price}}
+	                        </div>
+	                {{/if}}
+	                <div class="status-txt">{{step status }}</div>
+	            </div>
+            </div>
+            <div class="bottom">
+            	{{goods.summary}}
+            </div>
+        </div>
+</template>

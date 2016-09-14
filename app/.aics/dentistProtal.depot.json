@@ -1,0 +1,19 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:dentistProtal",
+    "version": "v0.0.3",
+    "summary": "医疗类首页",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:dentistSimple":""
+    },
+    "files": [
+        "client/dentistSite/site.css",
+        "client/dentistSite/site.html",
+        "client/dentistSite/site.js",
+        "lib/routers/dentistSite.js",
+        "server/dentistSite/publish.js"
+    ],
+    "database": {}
+}

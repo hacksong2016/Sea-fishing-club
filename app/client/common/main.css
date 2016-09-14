@@ -1,0 +1,65 @@
+/*css reset from fami project @@NOTINAICS */
+html,body{padding:0px;font-size:625%;background:#efefef;font-family: PingFang SC, 微软雅黑, 圆体;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { padding: 0; margin: 0;} 
+table { border-collapse: collapse; border-spacing: 0; } 
+img { border: 0; } 
+ol,ul {  list-style: none;} 
+h1,h2,h3,h4,h5,h6 { font-weight: normal; font-size: 100%; } 
+a{text-decoration:none;}
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+select,
+button { -webkit-appearance: none; }
+a{color:#333;}
+/* 以下为通用样式 */
+*{
+	-moz-box-sizing: border-box;  
+  -webkit-box-sizing: border-box; 
+  -o-box-sizing: border-box; 
+  -ms-box-sizing: border-box; 
+  box-sizing: border-box; 
+}
+._clear{clear:both;width:100%;}
+._animation{-webkit-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
+._animation:hover{-webkit-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
+._animation:active{-webkit-transition: all .3s ease-in-out 0s;transition: all .3s ease-in-out 0s;}
+._flex{
+  display: -webkit-box; 
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+._flex-1{
+  -webkit-box-flex: 1;
+  -moz-box-flex: 1;
+  -ms-box-flex: 1;
+  -webkit-flex: 1;
+  flex: 1;
+  display:block;
+}
+._flex-2{
+  -webkit-box-flex: 2;
+  -moz-box-flex: 2;
+  -ms-box-flex: 2;
+  -webkit-flex: 2;
+  flex: 2;
+   display:block;
+}
+._flex-3{
+  -webkit-box-flex: 3;
+  -moz-box-flex: 3;
+  -ms-box-flex: 3;
+  -webkit-flex: 3;
+  flex: 3;
+   display:block;
+}
+.clear{
+  clear:both;
+}
+
+._trans {-webkit-transition: all .2s ease-in-out 0s; transition: all .2s ease-in-out 0s;}
+._trans:hover{-webkit-transition: all .2s ease-in-out 0s;transition: all .2s ease-in-out 0s;}
+._hide{display:none;}
+/*project style */

@@ -1,0 +1,65 @@
+<template name="shopOrder">
+    {{#if Template.subscriptionsReady}}
+    <div class="page page-with-header-footer">
+        <header>
+            <div class="header">
+                {{goods.name}}
+                <a href="/shop" class="left"><i class="fa fa fa-chevron-left"></i></a>
+            </div>
+        </header>
+        <div class="so-goods _flex">
+            <div class="so-thumb" style="background-image:url({{ goods.thumb}})">
+            </div>
+            <div class="so-info">
+                <div class="so-name">{{goods.name}}</div>
+                <div class="so-point">消费: 
+                <!-- {{#if compare goods.type 'point'}}  -->
+                {{goods.point}} 积分 
+                <!-- {{/if}} {{#if compare goods.type 'cash'}} ¥ {{goods.price}} {{/if}} -->
+                </div>
+            </div>
+        </div>
+        {{#if address}}
+        <div class="so-address-wrap">
+            <div class="so-address-line">收件人姓名: {{address.name}}</div>
+            <div class="so-address-line">收件人地址: {{address.street}}</div>
+            <div class="so-address-line">收件人联系方式: {{address.tel}}</div>
+        </div>
+        {{else}}
+        <div class="so-address">
+            <div class="so-address-ct">
+                <div class="so-title"><i class="fa fa-plus"></i> 添加一个地址</div>
+                <div class="so-input">
+                    <input id="addressName" type="text" placeholder="收件人姓名" />
+                </div>
+                <div class="so-input">
+                    <input id="addressAddress" type="text" placeholder="收件人地址" />
+                </div>
+                <div class="so-input">
+                    <input id="addressTel" type="text" placeholder="收件人联系方式" />
+                </div>
+            </div>
+        </div>
+        {{/if}} 
+        {{#if address}}
+            <a href="/shop/address?id={{goods._id}}" class="so-change ">更换地址</a> 
+        {{/if}}
+
+        <div data-gid="{{goods._id}}" class="so-action ">提交订单</div>
+    </div>
+    {{else}}
+    <div class="sk-all">
+        <div class="sk-cube-grid">
+            <div class="sk-cube sk-cube1"></div>
+            <div class="sk-cube sk-cube2"></div>
+            <div class="sk-cube sk-cube3"></div>
+            <div class="sk-cube sk-cube4"></div>
+            <div class="sk-cube sk-cube5"></div>
+            <div class="sk-cube sk-cube6"></div>
+            <div class="sk-cube sk-cube7"></div>
+            <div class="sk-cube sk-cube8"></div>
+            <div class="sk-cube sk-cube9"></div>
+        </div>
+    </div>
+    {{/if}}
+</template>

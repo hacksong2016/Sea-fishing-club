@@ -1,0 +1,22 @@
+<template name="registerCode">
+	<div id="page-reg" class="login-single animated  slideInUp">
+		<div class="login-header" >
+			验证手机号
+			<a class="login-header-right login-page-back" href="/register"><i class="fa fa-chevron-right"></i></a>
+		</div>
+		<div class="page-login-body" >
+			<div class="page-login-form">
+				<div class="page-login-row">
+					<input id="code" type="tel"  placeholder="请填写收到的验证码">
+					<i class="fa fa-key"></i>
+				</div>
+				<div class="page-login-back" style="background-color: #fff">
+					<div class="page-login-btn" style="color: rgb(108,147,226)"><p>{{backtime}}</p></div>
+				</div>
+				<div class="page-login-btng">
+					<div class="page-login-btn regComBtn ">完成注册</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</template>

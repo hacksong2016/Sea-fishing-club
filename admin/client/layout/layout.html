@@ -1,0 +1,24 @@
+<template name="layout">
+    <div class="layout-container">
+        <div class="layout-navi ">
+            <a class="user" href="/logout">
+                <div class="avatar" style="background-image:url({{user.avatar}})"></div>
+                <div class="nickname">{{user.nickname}}</div>
+            </a>
+            <div class="layout-navi-list">
+                {{#each navigations}}
+                <a class="item _animation {{#if active this.sn}} active {{/if}}" href="{{this.url}}">
+                    {{#if this.icon}}
+                        <i class="fa fa-{{this.icon}}"></i>
+                    {{/if }}
+                    {{this.name}}
+                </a> 
+
+                {{/each}}
+            </div>
+        </div>
+        <div class="layout-main">
+            {{> Template.dynamic template=content}}
+        </div>
+    </div>
+</template>

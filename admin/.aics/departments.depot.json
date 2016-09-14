@@ -1,0 +1,18 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:departments",
+    "version": "v0.0.4",
+    "summary": "部门／科室管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+         "sunhn:admin-ui-base":""
+    },
+    "files": [
+    	"client/departments/departments.html",
+        "client/departments/departments.js",
+        "lib/model/departments.js",
+        "server/departments/publish.js"
+    ],
+    "database": {}
+}

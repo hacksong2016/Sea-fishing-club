@@ -1,0 +1,75 @@
+.myOrdersGoodsSimple{
+	width:100%;
+	border-bottom:0.01rem solid rgba(0,0,0,.12);
+	position: relative;
+	background:#fff;
+	margin-top:0.3rem;
+	box-shadow: 1px 1px 0 #bbb;
+	position: relative;
+}
+.myOrdersGoodsSimple .top{
+	padding:0.2rem 0.3rem;
+	width:100%;
+	border-bottom:1px solid #eee;
+	position: relative;
+}
+.myOrdersGoodsSimple .top .info{
+	padding-left:0.3rem;
+}
+.myOrdersGoodsSimple .thumb{
+	width:1.0rem;
+	height:1.0rem;
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+
+}
+.myOrdersGoodsSimple .name{
+	font-size:0.28rem;
+	line-height:0.4rem;
+	font-weight:800;
+}
+.myOrdersGoodsSimple .time{
+	font-size:0.24rem;
+	line-height:0.4rem;
+	color:#bbb;
+	padding-top:0.2rem;
+}
+.myOrdersGoodsSimple .status-txt{
+	position: absolute;
+	font-size:0.32rem;
+	color:rgb(108,147,226);
+	width:2.0rem;
+	text-align: center;
+	top:0.2rem;
+	right:0.2rem;
+}
+
+.myOrdersGoodsSimple .point{
+	position: absolute;
+	width:2.4rem;
+	border:1px solid #DE5E5E;
+	color:#DE5E5E;
+	font-size:0.24rem;
+	line-height:0.4rem;
+	padding-left:0.12rem;
+	top:0.8rem;
+	right:0.2rem;
+
+}
+.myOrdersGoodsSimple .point .label{
+	background:#DE5E5E;
+	color:#fff;
+	position: absolute;
+	left:0;
+	top:0;
+	width:1.2rem;
+	font-size:0.2rem;
+	text-align: center;
+}
+.myOrdersGoodsSimple .bottom{
+	padding:0.3rem;
+	line-height:0.4rem;
+	color:#bbb;
+	font-size:0.24rem;
+}

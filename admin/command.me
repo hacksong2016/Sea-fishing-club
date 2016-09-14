@@ -1,0 +1,3 @@
+netstat   -anp   |   grep  node
+meteor build --server="http://123.56.78.66:3000" /workspace/xdb2/build
+nohup env PORT=3000 MONGO_URL="mongodb://localhost:27017/xdb"  ROOT_URL="http://123.56.78.66:3000" node main.js > /alidata/logs/xdb.log 2>&1 &

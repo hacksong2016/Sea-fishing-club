@@ -1,0 +1,25 @@
+<template name="knowledgeBottom">
+	<div class="knowledge-bottom">
+        <div class="bottom-list" id="Like">
+            <div class="bottom-icon" id="licon" style="background-image: url(/qq.png);"></div>
+            <div class="bottom-wenzi">{{checkNum knowledges.like}}</div>
+        </div>
+
+        <div class="bottom-list" id="Read">
+            <div class="bottom-icon" style="background-image: url(/icon-look.png);"></div>
+            <div class="bottom-wenzi">{{checkNum knowledges.read}}</div>
+        </div>
+
+        <div class="bottom-list" id="Collection">
+            <div class="bottom-icon" style="background-image: url(/icon-sho.png);"></div>
+            <div class="bottom-wenzi">{{checkNum knowledges.collection}}</div>
+        </div>
+
+        <a onclick="showShare()">
+            <div class="bottom-list">
+                <div class="bottom-icon" style="background-image: url(/icon-for.png);"></div>
+                <div class="bottom-wenzi">转发</div>
+            </div>
+        </a>
+    </div>
+</template>

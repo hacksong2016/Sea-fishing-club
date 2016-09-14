@@ -1,0 +1,28 @@
+{
+    "name": "sunhn:dentist-admin",
+    "prototype": "meteor-admin",
+    "type": "project",
+    "version": "0.0.1",
+    "summary": "牙医类项目可扩展至医疗栗原类",
+    "git": "",
+    "documentation": "README.md",
+    "dependencies": {},
+    "packages": {
+        "sunhn:layout": "",
+        "sunhn:membersManager": "",
+        "sunhn:orders": "",
+        "sunhn:oss": "",
+        "sunhn:packages": "",
+        "sunhn:records": "",
+        "sunhn:titles": "",
+        "sunhn:goods": "",
+        "sunhn:ff-form-style": "",
+        "sunhn:dentists": "",
+        "sunhn:clinicsManager": "",
+        "sunhn:centerNoticeManager": "",
+        "sunhn:dentistBooking": "",
+        "sunhn:admin-ui-base": "",
+        "sunhn:admin-account-base": "",
+        "sunhn:regionsSimple": ""
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "prototype": "meteor-admin",
+    "name": "sunhn:goods",
+    "version": "v0.0.5",
+    "summary": "商品管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+         "sunhn:admin-ui-base":"",
+        "sunhn:oss":""
+    },
+    "files": [
+    	"client/goods/goods.html",
+        "client/goods/goods.js",
+        "lib/model/goods.js",
+        "server/goods/method.js",
+        "server/goods/publish.js"
+    ],
+    "database": {}
+}

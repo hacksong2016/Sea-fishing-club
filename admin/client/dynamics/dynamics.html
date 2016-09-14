@@ -1,0 +1,42 @@
+<template name="dynamics">
+    <div class="toolbars">
+        <a id="createLink"><i class="fa fa-plus"></i> 新建分类</a>
+    </div>
+    <div class="" id="datagrid"></div>
+    <div id="create" class="bg animated fadeIn  _hide" > 
+		<div  class="animated bounceInRight popup" >
+			<div class="ff-file">
+				<input type="file" id="c-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>分类名称</label>
+				<input type="text" id="c-topic" value=""/>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="save" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+	<div id="edit" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="editFor"/>
+			<div class="ff-file">
+				<input type="file" id="e-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>分类名称</label>
+				<input type="text" id="e-topic" value=""/>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="update" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+
+</template>

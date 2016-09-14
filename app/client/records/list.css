@@ -1,0 +1,25 @@
+.rl-item{
+	background:#fff;
+	padding:0.2rem;
+	margin-top:0.2rem;
+	box-shadow:1px 1px 0 #bbb;
+	line-height:0.5rem;
+	position: relative;
+	margin-bottom:0.02rem;
+	display: block;
+}
+.rl-line-2{
+	font-size:0.24rem;
+	color:#bbb;
+	padding-right:0.4rem;
+	height:0.04rem;
+	overflow:hidden;
+}
+.rl-item .fa-chevron-right{
+	position: absolute;
+	right:0.2rem;
+	top:0.2rem;
+	color:#bbb;
+	line-height:1.0rem;
+
+}

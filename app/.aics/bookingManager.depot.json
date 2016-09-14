@@ -1,0 +1,22 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:bookingManager",
+    "version": "v0.0.2",
+    "summary": "预约管理",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:mobile-account-base":""
+    },
+    "files": [
+        "client/bookingManager/item.css",
+        "client/bookingManager/item.html",
+        "client/bookingManager/item.js",
+        "client/bookingManager/list.css",
+        "client/bookingManager/list.html",
+        "client/bookingManager/list.js",
+        "lib/routers/bookingManager.js",
+        "server/bookingManager/publish.js"
+    ],
+    "database": {}
+}

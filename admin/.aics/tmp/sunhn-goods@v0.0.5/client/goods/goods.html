@@ -1,0 +1,125 @@
+<template name="goods">
+	<div class="toolbars">
+        <a id="createLink"><i class="fa fa-plus"></i> 新建商品</a>
+    </div>
+    <div id="datagrid"></div>
+     <div id="create" class="bg animated fadeIn  _hide" > 
+		<div  class="animated bounceInRight popup" >
+			<div class="ff-file">
+				<input type="file" id="c-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>名称</label>
+				<input type="text" id="c-name" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>积分</label>
+				<input type="number" id="c-point" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>价格</label>
+				<input type="number" id="c-price" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>简介</label>
+				<input type="text" id="c-summary" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>详细介绍</label>
+				<input type="text" id="c-detail" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>库存</label>
+				<input type="text" id="c-kc" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>类型</label>
+				<select id="c-type">
+					<option value="point">积分</option>
+					<option value="cash">支付</option>
+				</select>
+			</div>
+			<div class="ff-line">
+				<label>状态</label>
+				<select id="c-status">
+					<option value="0">未上线</option>
+					<option value="1">已上线</option>
+				</select>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="save" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+	<div id="edit" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="editFor"/>
+			<div class="ff-file">
+				<input type="file" id="e-thumb" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>名称</label>
+				<input type="text" id="e-name" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>积分</label>
+				<input type="number" id="e-point" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>价格</label>
+				<input type="number" id="e-price" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>简介</label>
+				<input type="text" id="e-summary" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>详细介绍</label>
+				<input type="text" id="e-detail" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>库存</label>
+				<input type="text" id="e-kc" value=""/>
+			</div>
+			<div class="ff-line">
+				<label>类型</label>
+				<select id="e-type">
+					<option value="point">积分</option>
+					<option value="cash">支付</option>
+				</select>
+			</div>
+			<div class="ff-line">
+				<label>状态</label>
+				<select id="e-status">
+					<option value="0">未上线</option>
+					<option value="1">已上线</option>
+				</select>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-item" id="update" >保存</div>
+			</div>
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+	<div id="pics" class="bg animated fadeIn _hide " > 
+		<div  class="animated bounceInRight popup" >
+			<input type="hidden" id="picFor"/>
+			<div class="ff-pics">
+				
+				<div class="ff-add">
+					<input type="file" />
+				</div>
+				<div class="clear"></div>
+			</div>
+			
+			<div class="ff-btn">
+				<div class="ff-btn-disable" onclick="disablePopup()">取消</div>
+			</div>
+		</div>
+	</div>
+</template>

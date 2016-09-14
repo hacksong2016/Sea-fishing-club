@@ -1,0 +1,28 @@
+<template name="recordsList">
+	<div class="page page-with-header records">
+        <header>
+            <div class="header">
+                {{record.fullname}}的档案
+                <a href="/records" class="left"><i class="fa fa fa-chevron-left"></i></a>
+                {{#if none tables}}
+                <a  class="right" id="recordes-remove"><i class="fa fa-trash"></i></a>
+                {{/if}}
+            </div>
+        </header>
+        <div class="records-list">
+        	{{#each tables}}
+        		<a href="/records/document/view?id={{_id}}&fm=mine" class="rl-item">
+        			<div class="rl-line-1">{{date}} {{doctor}}</div>
+        			<div class="rl-line-2">描述: {{desc}}</div>
+        			<i class="fa fa-chevron-right"></i>
+        		</a>
+        	{{/each }}
+            <div class="list-item">
+                <div class="item-row">姓名 :&nbsp;{{record.fullname}}</div><br/> 
+                <div class="item-row">年龄 :&nbsp;{{record.year}}</div><br/>
+                <div class="item-row">身份 :&nbsp;{{record.role}}</div><br/>
+                <div class="item-row">电话 :&nbsp;{{record.tel}}</div><br/>
+            </div>
+        </div>
+    </div>
+</template>

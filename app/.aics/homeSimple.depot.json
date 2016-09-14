@@ -1,0 +1,30 @@
+{
+    "prototype": "meteor",
+    "name": "sunhn:homeSimple",
+    "version": "v0.0.6",
+    "summary": "简单的个人中心",
+    "documentation": "",
+    "git": "",
+    "dependencies": {
+        "sunhn:oss":"",
+       "sunhn:mobile-account-base":""
+    },
+    "files": [
+    	"client/home/home.css",
+        "client/home/home.html",
+        "client/home/home.js",
+        "client/home/info.css",
+        "client/home/info.html",
+        "client/home/info.js",
+        "client/home/nickname.css",
+        "client/home/nickname.html",
+        "client/home/nickname.js",
+        "client/home/password.css",
+        "client/home/password.html",
+        "client/home/password.js",
+        "lib/routers/home.js",
+        "server/home/methods.js",
+        "server/home/publish.js"
+    ],
+    "database": {}
+}

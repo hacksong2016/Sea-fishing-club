@@ -1,0 +1,33 @@
+.hp-content{
+	line-height:0.5rem;
+	background:#fff;
+	text-align: justify;
+}
+.hp-content h1{
+	font-weight:800;
+	line-height:0.7rem
+	font-size:0.36rem;
+	margin-top:0.3rem;
+}
+.hp-content h2{
+	font-weight:800;
+	line-height:0.6rem;
+	font-size:0.32rem;
+	margin-top:0.2rem;
+}
+.hp-content p{
+	font-size:0.28rem;
+	text-indent: 0.48rem;
+}
+.hp-table{
+	font-size:0.24rem;
+	border-top:1px solid #bbb;
+	border-right:1px solid #bbb;
+	margin:0.3rem auto;
+	width:100%;
+	text-align: center;
+}
+.hp-table th ,.hp-table td {
+	border-bottom:1px solid #bbb;
+	border-left:1px solid #bbb;
+}

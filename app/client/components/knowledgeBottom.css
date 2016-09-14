@@ -1,0 +1,55 @@
+.knowledge-bottom{
+	font-size: 0.32rem;
+	width: 100%;
+	height: 0.9rem;
+	line-height: 0.9rem;
+	z-index: 9999;
+	position: fixed;
+	bottom:0;
+	border-top: 1px solid #ddd;
+	left: 0;
+	background-color: rgb(244,244,245);
+	padding: 0.2rem 0.4rem;
+}
+
+.bottom-list{
+	width: 25%;
+	height: 0.5rem;
+	float: left;
+	color:rgba(0,0,0,.5);
+	position: relative;
+}
+
+.bottom-icon{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin-top: 0.04rem;
+	overflow: hidden;
+	float: left;
+}
+
+.bottom-wenzi{
+	width:1.0rem;
+	height: 0.5rem;
+	line-height: 0.5rem;
+	font-size: 0.32rem;
+	float: left;
+	padding-left: 0.2rem;
+}
+
+.bottom-wenzi input{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	bottom:0;
+}
+
+.bottom-icon{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.bottom-icon-next{
+	background-image: url(/lnext.png);
+}

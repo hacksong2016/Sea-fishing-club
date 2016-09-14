@@ -1,0 +1,45 @@
+.active-all{
+	margin-bottom: 1rem;
+}
+.active-list{
+	width:100%;
+	height:3.8rem;
+	display:block;
+	position:relative;
+	font-size: 0.32rem;
+	margin-bottom: 2px;
+}
+.active-thumb{
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.active-topic{
+	position:absolute;
+	bottom:50%;
+	background:rgba(0,0,0,.4);
+	line-height:0.3rem;
+	padding:0.2rem;
+	color:#fff;
+	font-size: 0.30rem;
+	/*border-radius-right:40%;*/
+	border-top-right-radius:0.4rem; 
+    border-bottom-right-radius:0.4rem;
+}
+
+.cd-detail-title{
+	font-size: 0.32rem;
+}
+
+.cd-detail{
+	font-size: 0.32rem;
+}
+
+.active-footer{
+	font-size: 0.32rem;
+}

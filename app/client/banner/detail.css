@@ -1,0 +1,8 @@
+.banner-content{
+	width:100%;
+	font-size: 0.44rem;
+	text-align: center;
+}
+.banner-content img{
+	max-width: 100%;
+}

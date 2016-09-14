@@ -1,0 +1,24 @@
+<template name="checkActive">
+    <div class="page page-with-header-footer">
+        <header>
+            <div class="header">
+                活动验证
+            </div>
+        </header>
+        {{#if ua}} {{#with activeInfo ua.active}}
+        <div class="cg-item">
+            <div class="cg-w">
+                <div class="cg-thumb" style="background-image:url({{thumb}})"></div>
+                <div class="cg-title">活动名称：{{topic}}</div>
+            </div>
+            <div class="cg-action">验证</div>
+        </div>
+        {{/with }} {{else}}
+        <div class="cg-item">
+            <div class="cg-w">
+                <div class="cg-title">无信息或已经验证过</div>
+            </div>
+        </div>
+        {{/if}}
+    </div>
+</template>
