@@ -6,7 +6,7 @@
 
 预览地址：http://sfc.fami2x.com
 
-后台预览地址：http://sfcadmin.fami2x.com
+后台预览地址：http://sfcadmin.fami2x.com （账号密码暂未公布，有兴趣的可以留言私聊）
 
 ![首页](http://jiac-cdn.fami2u.com/hacksong/8D8BD056-5F39-42C9-89DC-892321D42DBD.png@_w200.jpg)
 
