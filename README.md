@@ -6,7 +6,7 @@
 
 预览地址：http://sfc.fami2x.com
 
-后台预览地址：http://sfcadmin.fami2x.com
+后台预览地址：http://sfcadmin.fami2x.com （账号密码暂未公布，有兴趣的可以留言私聊）
 
 ![首页](http://jiac-cdn.fami2u.com/hacksong/8D8BD056-5F39-42C9-89DC-892321D42DBD.png@_w200.jpg)
 
@@ -24,5 +24,4 @@
 #####个人中心
 有个人的资料，还有一些收藏，参与的活动，我的订单，海钓积分的一个说明，登录注册（手机号注册），邀请人（选填）
 
-
-
+### 关注3630海钓 关注FAMI2U 关注HACKSONG2016
