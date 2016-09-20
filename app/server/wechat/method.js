@@ -26,7 +26,7 @@ Meteor.methods({
         var url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=" + wechatConfig.appid + "&secret=" + wechatConfig.secret+ "&code=" + args.code + "&grant_type=authorization_code";
         Meteor.http.get(url, function(error, response) {
             if (response.statusCode === 200) {
-                var json = JSON.parse(response.content);
+                var json = JSON.parse(response.content);、
                 if (json.errcode) {
                     console.log(response.content);
                 } else {
